@@ -23,7 +23,7 @@ button {
   border-radius: 6px;
   background-color: #3882f6;
   font-size: 16px;
-  color: white;
+  color: #f9faf8;
   cursor: pointer;
 }
 
@@ -32,7 +32,7 @@ button {
 }
 
 .btn-light {
-  border: 2px solid white;
+  border: 2px solid #f9faf8;
 }
 
 .header, .footer {
@@ -145,7 +145,7 @@ button {
 .newsletter {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #f9faf8;
   padding: 96px 0;
 }
 
@@ -167,4 +167,10 @@ button {
 
 .newsletter-info {
   margin: 0;
+}
+
+.footer {
+  padding: 24px 0;
+  color: #f9faf8;
+  text-align: center;
 }
