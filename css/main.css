@@ -28,7 +28,7 @@ button {
   cursor: pointer;
 }
 
-.header, .info, .quote, .newsletter, .footer {
+.info, .quote, .newsletter, .footer {
   min-height: 200px;
 }
 
@@ -36,7 +36,7 @@ button {
   background-color: #1f2937;
 }
 
-.top-header, .hero {
+.top-header, .hero, .info {
   margin: 0 auto;
   max-width: 960px;
 }
@@ -96,3 +96,26 @@ button {
   display: flex;
   align-items: flex-end;
 }
+
+.info {
+  text-align: center;
+  padding: 48px 0;
+}
+
+.shoes-list {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.shoe {
+  flex: 1;
+  max-width: 200px;
+}
+
+.shoe img {
+  border-radius: 12px;
+}
+
